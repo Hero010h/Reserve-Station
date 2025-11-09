@@ -67,11 +67,11 @@
           reagent: Carpozine
           min: 15
         reagent: UnstableMutagen
-        amount: 0.1
+        amount: 0.5
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
           reagent: Carpozine
           min: 15
         reagent: Pendetide
-        amount: 0.1
+        amount: 0.5
