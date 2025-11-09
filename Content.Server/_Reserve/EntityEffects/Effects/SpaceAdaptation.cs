@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 Hero010h <163765999+Hero010h@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Shared._Shitmed.Body.Organ;
