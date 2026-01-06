@@ -1,0 +1,16 @@
+- type: entity
+  id: ChemicalImplanter
+  suffix: Tracking
+  parent: BaseImplantOnlyImplanter
+  components:
+  - type: Implanter
+    implant: ChemicalImplant
+  - type: ChemicalImplant
+    vialSlot:
+      whitelist:
+        tags:
+        - CentrifugeCompatible
+      priority: 9
+  - type: ContainerContainer
+    containers:
+      VialSlot: !type:ContainerSlot

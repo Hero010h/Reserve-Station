@@ -1,0 +1,16 @@
+- type: entity
+  parent: BaseAction
+  id: ActionActivateChemicalImplant
+  name: Inject chemicals
+  description: Activates your honking implant, which will produce the signature sound of the clown.
+  components:
+  - type: LimitedCharges
+    maxCharges: 1
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -20
+    icon:
+      sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+      state: icon
+  - type: InstantAction
+    event: !type:InjectChemicalImplantEvent
